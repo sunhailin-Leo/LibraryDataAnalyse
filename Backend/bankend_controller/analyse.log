@@ -1,0 +1,8 @@
+2018-01-04 09:52:23,342 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 09:52:23,347 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 09:52:51,962 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 09:52:51,967 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 09:53:21,783 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 09:53:21,787 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 09:53:24,916 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 09:53:24,920 MySQLHandler.py[line:68] DEBUG 连接数据库成功!

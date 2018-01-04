@@ -1,0 +1,9 @@
+{
+    "gzcc_student_sql": "SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) = 12 AND `单位` != '100' AND `单位` NOT LIKE '职院%';",
+    "gzcc_student_sql_time": "SELECT `证件号`, `姓名`, `单位`, `索书号`, DATE_FORMAT(STR_TO_DATE(`借书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `借书日期`, DATE_FORMAT(STR_TO_DATE(`（应）还书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `还书日期` FROM jieyue WHERE LENGTH(`证件号`) = 12 AND `单位` != '100' AND `单位` NOT LIKE '职院%';",
+    "gzcc_time": "SELECT * FROM jieyue_2",
+    "kd_student_sql": "SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) > 10 AND `单位` != '100' AND `单位` LIKE '职院%';",
+    "kd_student_sql_time": "SELECT `证件号`, `姓名`, `单位`, `索书号`, DATE_FORMAT(STR_TO_DATE(`借书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `借书日期`, DATE_FORMAT(STR_TO_DATE(`（应）还书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `还书日期` FROM jieyue WHERE LENGTH(`证件号`) > 10 AND `单位` != '100' AND `单位` LIKE '职院%';",
+    "teacher_sql": "SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10",
+    "teacher_sql_time": "SELECT `证件号`, `姓名`, `单位`, `索书号`, DATE_FORMAT(STR_TO_DATE(`借书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `借书日期`, DATE_FORMAT(STR_TO_DATE(`（应）还书日期`, '%Y-%m-%d%H:%i:%S'), '%Y-%m-%d %H:%i:%S') AS `还书日期` FROM jieyue WHERE LENGTH(`证件号`) < 10;"
+}

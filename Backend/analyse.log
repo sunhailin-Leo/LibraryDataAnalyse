@@ -1,0 +1,257 @@
+2017-12-29 15:21:06,937 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:21:06,961 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:21:42,445 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:21:42,449 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:21:45,921 EchartsHandler.py[line:206] DEBUG 正在导出: ./output/图书价格分布图.html
+2017-12-29 15:22:13,541 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:22:13,545 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:22:17,013 EchartsHandler.py[line:206] DEBUG 正在导出: ./controller/output/图书价格分布图.html
+2017-12-29 15:36:40,058 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:36:40,062 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:36:43,698 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:36:43,710 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:36:57,515 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:36:57,519 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:38:29,749 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:38:29,753 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:40:41,308 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:40:41,312 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:42:25,892 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:42:25,896 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:48:43,363 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:48:43,367 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:49:55,654 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:49:55,659 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:50:53,802 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:50:53,806 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:51:52,201 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:51:52,209 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:52:24,591 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:52:24,596 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:54:59,349 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:54:59,353 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:56:02,652 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:56:02,658 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:57:08,716 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:57:08,721 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:57:42,022 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:57:42,026 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:58:03,370 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:58:03,374 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 15:58:31,773 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 15:58:31,776 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:27:23,869 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:27:23,873 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:29:24,922 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:29:24,927 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:29:59,050 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:29:59,055 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:30:26,036 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:30:26,040 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:31:13,168 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:31:13,172 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:32:03,740 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:32:03,744 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:32:38,888 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:32:38,890 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:32:46,631 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:32:46,632 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:33:23,082 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:33:23,083 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:36:37,268 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:36:37,272 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-29 16:37:26,759 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-29 16:37:26,762 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 03:36:27,722 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 03:36:27,728 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 03:36:54,236 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 03:36:54,240 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 12:44:47,696 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pymysql\\connections.py"', '位置': '第1021行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(2013, 'Lost connection to MySQL server during query ([WinError 10053] 你的主机中的软件中止了一个已建立的连接。)')\nunable to rollback\n"}
+2017-12-30 12:45:08,494 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '位置': '第1409行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n"}
+2017-12-30 12:46:01,610 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '位置': '第1409行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n"}
+2017-12-30 12:46:14,294 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 12:46:14,325 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 12:50:40,259 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 12:50:40,262 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 12:50:43,492 EchartsHandler.py[line:206] DEBUG 正在导出: ./controller/output/图书价格分布图.html
+2017-12-30 12:50:53,814 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 12:50:53,818 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 12:51:33,043 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 12:51:33,047 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 12:52:39,012 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 12:52:39,016 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 15:49:18,916 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 15:49:18,930 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 15:49:42,708 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 15:49:42,712 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-30 15:51:28,095 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-30 15:51:28,099 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-31 00:14:53,863 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-31 00:14:53,868 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-31 00:14:59,918 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-31 00:14:59,923 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2017-12-31 03:08:18,728 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2017-12-31 03:08:18,732 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-01 01:35:06,042 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pymysql\\connections.py"', '位置': '第1021行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(2013, 'Lost connection to MySQL server during query ([WinError 10053] 你的主机中的软件中止了一个已建立的连接。)')\nunable to rollback\n"}
+2018-01-01 01:35:24,290 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '位置': '第1409行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n"}
+2018-01-01 01:36:28,518 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '位置': '第1409行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n"}
+2018-01-01 02:01:22,526 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '位置': '第1409行', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n"}
+2018-01-01 02:01:37,221 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-01 02:01:37,282 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-01 16:35:04,125 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pymysql\\connections.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(2013, 'Lost connection to MySQL server during query ([WinError 10053] 你的主机中的软件中止了一个已建立的连接。)')\nunable to rollback\n", '位置': '第1021行'}
+2018-01-01 16:35:23,578 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n", '位置': '第1409行'}
+2018-01-01 16:37:57,588 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-01 16:37:57,853 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-01 16:39:32,795 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-01 16:39:32,861 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-02 00:58:01,478 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-02 00:58:01,491 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-02 21:35:41,056 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pymysql\\connections.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(2013, 'Lost connection to MySQL server during query ([WinError 10053] 你的主机中的软件中止了一个已建立的连接。)')\nunable to rollback\n", '位置': '第1021行'}
+2018-01-02 21:37:32,450 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n", '位置': '第1409行'}
+2018-01-02 21:40:39,886 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n", '位置': '第1409行'}
+2018-01-02 21:41:49,180 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n", '位置': '第1409行'}
+2018-01-02 21:42:44,001 analyse.py[line:101] DEBUG {'路径': '"C:\\Python34\\lib\\site-packages\\pandas\\io\\sql.py"', '原因': "pandas.io.sql.DatabaseError: Execution failed on sql: SELECT `单位`, `题名`, `索书号` FROM jieyue WHERE LENGTH(`证件号`) < 10\n(0, '')\nunable to rollback\n", '位置': '第1409行'}
+2018-01-02 21:42:52,728 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-02 21:42:52,733 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:24:08,456 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:24:08,568 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:29:32,256 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:29:32,275 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:29:34,881 EchartsHandler.py[line:263] DEBUG 正在导出: ./controller/output/广商学生借书男女比例(不重复).html
+2018-01-03 10:30:08,269 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:30:08,273 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:31:01,751 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:31:01,761 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:31:07,673 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:31:07,702 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:31:17,940 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:31:17,944 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:32:31,764 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:32:31,782 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:32:40,614 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:32:40,618 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:33:37,735 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:33:37,739 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:33:49,558 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:33:49,561 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:34:01,608 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:34:01,612 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:34:09,686 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:34:09,723 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:39:38,951 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:39:38,955 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:43:01,063 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:43:01,071 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:43:05,152 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:43:05,158 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:44:36,325 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:44:36,329 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:46:01,576 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:46:01,581 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 10:46:05,222 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 10:46:05,228 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 16:00:06,036 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 16:00:06,043 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:01:58,177 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:01:58,191 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:02:02,245 EchartsHandler.py[line:206] DEBUG 正在导出: ./controller/output/图书价格分布图.html
+2018-01-03 22:17:13,308 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:17:13,312 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:17:14,418 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:17:14,421 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:31:54,858 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:31:54,862 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:31:55,855 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:31:55,860 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:34:30,912 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:34:30,916 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:34:31,075 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:34:31,078 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:35:20,473 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:35:20,477 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:35:21,227 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:35:21,231 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:55:05,608 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:55:05,612 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:55:06,278 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:55:06,283 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:55:30,932 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:55:30,935 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:55:31,275 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:55:31,278 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:56:48,347 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:56:48,351 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-03 22:56:48,641 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-03 22:56:48,644 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:18:19,320 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:18:19,326 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:18:20,016 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:18:20,020 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:19:24,696 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:19:24,699 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:38:39,507 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:38:39,511 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:53:55,744 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:53:55,748 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:53:56,458 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:53:56,462 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:54:22,329 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:54:22,333 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 00:54:22,474 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 00:54:22,477 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:02:35,809 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:02:35,813 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:10:28,963 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:10:28,968 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:10:35,231 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:10:35,235 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:10:38,523 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:10:38,527 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:11:34,785 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:11:34,789 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:22:06,373 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:22:06,377 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:22:35,042 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:22:35,046 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:22:36,041 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:22:36,046 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:28:53,373 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:28:53,377 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:29:03,019 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:29:03,023 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:29:12,635 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:29:12,639 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:31:00,298 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:31:00,302 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:31:25,730 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:31:25,737 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:31:55,154 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:31:55,158 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:31:59,554 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:31:59,562 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:32:56,171 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:32:56,175 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:33:06,895 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:33:06,899 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:34:13,138 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:34:13,146 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:34:25,160 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:34:25,164 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:35:09,724 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:35:09,730 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:38:11,115 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:38:11,119 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:39:11,306 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:39:11,312 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:39:46,776 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:39:46,780 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:39:47,974 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:39:47,979 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:40:08,975 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:40:08,978 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 01:40:09,911 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 01:40:09,914 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 03:35:29,555 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 03:35:29,561 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
+2018-01-04 03:35:32,738 MySQLHandler.py[line:57] DEBUG 用户名:root	数据库名称:library		数据库地址:127.0.0.1	数据库端口:3306
+2018-01-04 03:35:32,742 MySQLHandler.py[line:68] DEBUG 连接数据库成功!
