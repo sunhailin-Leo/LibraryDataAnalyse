@@ -112,10 +112,7 @@ class LibraryBorrow:
             if sql is not None and json_key is None and isinstance(sql, str):
                 return pd.read_sql_query(sql=sql, con=self._conn)
             elif sql is None and json_key is not None:
-                print(json_key)
                 sql_dialects = self._json_sql[json_key]
-                print(sql_dialects)
-                print(self._conn)
                 return pd.read_sql_query(sql=sql_dialects, con=self._conn)
             else:
                 raise ValueError("Please give right arguments!")
@@ -256,7 +253,12 @@ class LibraryBorrow:
                 "You need call function get_student_data before call this function!")
         else:
             if self._json_mode:
-                return [len(self.gzcc), len(self.kd), len(self._mysql_to_pandas(json_key="teacher_sql"))]
+                try:
+                    return [len(self.gzcc), len(self.kd), len(self._mysql_to_pandas(json_key="teacher_sql"))]
+                except TypeError:
+                    # 尝试解决一个bug
+                    self._conn = DataSource(json_config=True).conn
+                    return [len(self.gzcc), len(self.kd), len(self._mysql_to_pandas(json_key="teacher_sql"))]
             else:
                 self.draw.draw_reader_count(
                     data_list=[
@@ -364,14 +366,21 @@ class LibraryBorrow:
         画不同时间(周数)借还书的人比例
         :return:
         """
+        week_range = [1, 3, 2, 5, 6, 4, 7]
         group_weekdays_result_borrow = self.gzcc_with_time.groupby(['借书日期(周数)']).count()[
-            '证件号']
+            '证件号'].reset_index()
+        group_weekdays_result_borrow['rank'] = week_range
+        group_weekdays_result_borrow = group_weekdays_result_borrow.sort_values(['rank'])
+
         group_weekdays_result_return = self.gzcc_with_time.groupby(['还书日期(周数)']).count()[
-            '证件号']
-        x = list(group_weekdays_result_borrow.index)
+            '证件号'].reset_index()
+        group_weekdays_result_return['rank'] = week_range
+        group_weekdays_result_return = group_weekdays_result_return.sort_values(['rank'])
+
+        x = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
         y = [
-            group_weekdays_result_borrow.tolist(),
-            group_weekdays_result_return.tolist()]
+            group_weekdays_result_borrow['证件号'].tolist(),
+            group_weekdays_result_return['证件号'].tolist()]
         name = ['借书', '还书']
         if self._json_mode:
             return self.draw.draw_bar_chart(
@@ -516,8 +525,19 @@ class LibraryBorrow:
         stu_info = filter_faculty(stu_info)
         group_sex = list(stu_info.groupby(['t_sex']))
         male = group_sex[0][1]
-        print(male.groupby(['Faculty']).count()['姓名'])
+        male_group = male.groupby(['Faculty']).count()
+        male_list = male_group['姓名'].tolist()
+        index = list(male_group.index)
 
+        female = group_sex[1][1]
+        female_group = female.groupby(['Faculty']).count()
+        female_list = female_group['姓名'].tolist()
+
+        df = pd.DataFrame([male_list, female_list], index=["Male", "Female"]).T
+        df['MalePercent'] = df['Male'] / (df['Male'] + df['Female'])
+        df['FemalePercent'] = df['Female'] / (df['Male'] + df['Female'])
+        df['Faculty'] = index
+        print(df)
 
         """
         gzcc['Department'] = [self._keep_zh(x)

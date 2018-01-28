@@ -5,6 +5,7 @@ import LibraryBook from './views/nav1/LibraryBook.vue'
 import SexGrade from './views/nav1/SexGrade.vue'
 import BorrowReturn from './views/nav1/BRInfo.vue'
 import MarkDown from './views/nav2/MarkDown.vue'
+import MarkDownList from './views/nav2/MarkDownList'
 import echarts from './views/charts/echarts.vue'
 
 let routes = [
@@ -48,7 +49,8 @@ let routes = [
         name: '笔记',
         iconCls: 'fa fa-pencil-square-o',
         children: [
-            { path: '/markdown', component: MarkDown, name: 'MarkDown' }
+            { path: '/markdown', component: MarkDown, name: 'MarkDown' },
+            { path: '/markdownList', component: MarkDownList, name: '文章列表' }
         ]
     },
     {
