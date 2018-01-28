@@ -5,6 +5,7 @@ Created on 2017年12月17日
 """
 
 # 系统库
+import os
 import logging
 
 
@@ -13,7 +14,9 @@ class Logger:
     def __init__(
             self,
             logger,
-            log_path="./analyse.log",
+            log_path=os.path.abspath(__file__).replace(
+                "controller\\logger\\LoggerHandler.py",
+                "") + "analyse.log",
             file_log_level="DEBUG",
             console_log_level="DEBUG"):
 
