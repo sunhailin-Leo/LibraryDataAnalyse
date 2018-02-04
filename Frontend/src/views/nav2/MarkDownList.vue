@@ -1,7 +1,7 @@
 <template>
     <el-table
             :data="tableData"
-            style="width: 100%">
+            style="width: 100%; margin-top: 20px">
         <el-table-column
                 label="日期"
                 width="180">

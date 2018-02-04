@@ -74,3 +74,7 @@ export const getLibDifFloor = params => {
 export const getPublishAuthor = params => {
     return my_router.get(`/charts/p_a`, { params: params }).then(res => res.data)
 };
+
+export const getFacultySex = params => {
+    return my_router.get(`/charts/faculty_sex`, { params: params }).then(res => res.data)
+};

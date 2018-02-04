@@ -9,7 +9,7 @@ import re
 
 # 第三方库
 import pandas as pd
-from pyecharts import Bar, Pie, WordCloud, Page, Style
+from pyecharts import Bar, Pie, WordCloud, Grid, Page, Style
 
 # 项目内部库
 from Backend.controller.logger.LoggerHandler import Logger
@@ -18,7 +18,7 @@ from Backend.controller.logger.LoggerHandler import Logger
 logger = Logger(logger='EchartsHandler.py').get_logger()
 
 # Echart图(HTML)导出路径
-Echart_Output_Path = "./controller/output/"
+Echart_Output_Path = "./output/"
 
 
 class DrawByEcharts:
@@ -205,6 +205,62 @@ class DrawByEcharts:
         else:
             logger.debug("正在导出: " + Echart_Output_Path + "图书价格分布图" + ".html")
             page.render(Echart_Output_Path + "图书价格分布图" + ".html")
+
+    def draw_dif_faculty_sex_pie_chart(self, df: pd.DataFrame):
+        """
+        各学院男女借书比例
+        :param df:
+        :return:
+        """
+        male = df['Male'].tolist()
+        female = df['Female'].tolist()
+        faculty_list = df['Faculty'].tolist()
+        faculty_sex_list = list(zip(male, female, faculty_list))
+
+        pie = Pie(title='广商各学院借书男女人数比', subtitle="男女人数比", title_pos='center', **self.style.init_style)
+        style = Style()
+        pie_style = style.add(
+            label_pos="center",
+            is_label_show=True,
+            label_text_color="#698B69",
+            label_emphasis_textcolor="#9dccfb",
+            label_emphasis_pos="center",
+            legend_top="center",
+            label_color=['#4876FF', '#EE3B3B']
+        )
+        label_list = ["男", "女"]
+        pie.add("", label_list, list(faculty_sex_list[0][:-1]),
+                center=[10, 30], radius=[18, 24],
+                label_formatter=faculty_sex_list[0][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[1][:-1]),
+                center=[30, 30], radius=[18, 24],
+                label_formatter=faculty_sex_list[1][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[2][:-1]),
+                center=[50, 30], radius=[18, 24],
+                label_formatter=faculty_sex_list[2][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[3][:-1]),
+                center=[70, 30], radius=[18, 24],
+                label_formatter=faculty_sex_list[3][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[4][:-1]),
+                center=[90, 30], radius=[18, 24],
+                label_formatter=faculty_sex_list[4][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[5][:-1]),
+                center=[10, 70], radius=[18, 24],
+                label_formatter=faculty_sex_list[5][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[6][:-1]),
+                center=[30, 70], radius=[18, 24],
+                label_formatter=faculty_sex_list[6][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[7][:-1]),
+                center=[50, 70], radius=[18, 24],
+                label_formatter=faculty_sex_list[7][-1] + "\n{b}: {d}%\n", **pie_style)
+        pie.add("", label_list, list(faculty_sex_list[8][:-1]),
+                center=[70, 70], radius=[18, 24],
+                label_formatter=faculty_sex_list[8][-1] + "\n{b}: {d}%\n", **pie_style)
+
+        if self._json_mode:
+            return pie.options
+        else:
+            self._public_page_render(chart=pie, filename="广商各学院借书男女人数比")
 
     ##########################################################################
     def draw_pie_chart(self, title: str, x_list: list, y_list: list):

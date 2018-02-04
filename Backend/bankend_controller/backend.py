@@ -53,6 +53,8 @@ class Backend:
         self._api.add_resource(DifFloorBorrow, self._version_prefix + "/charts/dif_floor")
         self._api.add_resource(PublishAuthor, self._version_prefix + "/charts/p_a")
 
+        self._api.add_resource(FacultySexBorrowInfo, self._version_prefix + "/charts/faculty_sex")
+
         # 注册蓝图
         self._app.register_blueprint(self._api_bp)
 

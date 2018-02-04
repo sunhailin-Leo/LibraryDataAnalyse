@@ -47,7 +47,7 @@
                 </div>
             </el-card>
         </section>
-        <el-row :gutter="22">
+        <el-row :gutter="22" >
             <el-col :xs="24" :sm="24" :md="12" :lg="12">
                 <el-card class="box_card">
                     <div id="gzccTop15" style="width:100%; height:400px;"></div>
@@ -92,6 +92,7 @@
                     GzccStuCount: 0,
                     KdStuCount: 0
                 },
+                listLoading: true
             }
         },
         computed: {

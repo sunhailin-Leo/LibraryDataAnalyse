@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import LibraryBook from './views/nav1/LibraryBook.vue'
 import SexGrade from './views/nav1/SexGrade.vue'
 import BorrowReturn from './views/nav1/BRInfo.vue'
+import FacultySex from './views/nav1/FacultySex'
 import MarkDown from './views/nav2/MarkDown.vue'
 import MarkDownList from './views/nav2/MarkDownList'
 import echarts from './views/charts/echarts.vue'
@@ -41,6 +42,7 @@ let routes = [
             { path: '/sexGrade', component: SexGrade, name: '性别和年级的对比' },
             { path: '/brinfo', component: BorrowReturn, name: '借阅及归还情况对比' },
             { path: '/libinfo', component: LibraryBook, name: '图书馆和图书的相关情况' },
+            { path: '/facultySex', component: FacultySex, name: '各学院借书男女比例'}
         ]
     },
     {

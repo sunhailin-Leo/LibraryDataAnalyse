@@ -92,3 +92,8 @@ class PublishAuthor(Resource):
         res = charts.draw_dif_gzcc_book_publish_author()
         return jsonify(res)
 
+
+class FacultySexBorrowInfo(Resource):
+    def get(self):
+        res = charts.draw_gzcc_faculty_sex_borrow_info()
+        return jsonify(res)

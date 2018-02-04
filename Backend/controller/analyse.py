@@ -507,9 +507,9 @@ class LibraryBorrow:
                     len(price_80_100),
                     len(price_100_max)])
 
-    def draw_gzcc_stu_borrow_info(self):
+    def draw_gzcc_faculty_sex_borrow_info(self):
         """
-        学生借书情况一览
+        各学院男女学生借书情况一览
         :return:
         """
         stu_info = self._mysql_to_pandas(
@@ -537,24 +537,13 @@ class LibraryBorrow:
         df['MalePercent'] = df['Male'] / (df['Male'] + df['Female'])
         df['FemalePercent'] = df['Female'] / (df['Male'] + df['Female'])
         df['Faculty'] = index
-        print(df)
+        df['MalePercent'] = [str(round(m * 100, 2)) + "%" for m in df['MalePercent']]
+        df['FemalePercent'] = [str(round(m * 100, 2)) + "%" for m in df['FemalePercent']]
 
-        """
-        gzcc['Department'] = [self._keep_zh(x)
-                              for x in gzcc['Department'].tolist()]
-        gzcc.insert(
-            1, "Faculty", [
-                re.search(
-                    r'(.*学院)(.*)', x).groups()[0] for x in gzcc['Department']])
-        gzcc.insert(
-            2, "Major", [
-                re.search(
-                    r'(.*学院)(.*)', x).groups()[1] for x in gzcc['Department']])
-        gzcc['Faculty'] = [x.replace("国际学院国际学院", "国际学院")
-                           for x in gzcc['Faculty']]
-        """
-        # female = group_sex[1][1]
-        # print(female)
+        if self._json_mode:
+            return self.draw.draw_dif_faculty_sex_pie_chart(df=df)
+        else:
+            self.draw.draw_dif_faculty_sex_pie_chart(df=df)
 
     ##########################################################################
     def get_teacher_data(self):
@@ -584,7 +573,7 @@ if __name__ == '__main__':
     # lib.draw_dif_gzcc_book_publish_author()
 
     # lib.draw_library_book_price()
-    lib.draw_gzcc_stu_borrow_info()
+    lib.draw_gzcc_faculty_sex_borrow_info()
 
     # 教师
     # lib.get_teacher_data()
